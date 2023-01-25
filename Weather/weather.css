@@ -1,0 +1,76 @@
+*{
+    padding: 0;
+    display: flexbox;
+    margin: 0;
+}
+
+#picture{
+    background-image: url("rainy3.jpg");;
+}
+body{
+    width: 100vw;
+    height: 100vh;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.container{
+    width: 410px;   
+    margin: 10px auto;
+    padding: 10px;
+}
+.main{
+    width: fit-content;
+    height: fit-content;
+}
+
+.enter{
+    padding: 10px;
+    height: fit-content;
+    text-align: center;
+    justify-content: center;
+    background: gainsboro;
+}
+.enter input[type="text"]{
+    height: 3.5rem;
+    width: 20rem;
+    background: rgb(255, 0, 0);
+    font-size: 2rem;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    background: transparent;
+    border: 2px solid grey;
+    border-radius: 2px;
+    margin-right: 2px;
+    padding: 10px; 
+}
+.enter input[type="submit"]{
+    height: 4rem;
+    width: 7rem;
+    background: peru;
+    font-weight: bold;
+    color: white;
+    font-size: 1.2rem;
+    margin-top: 20px;
+    border: none;
+    border-radius: 2px;
+
+}
+
+.display{
+    text-align: center;
+    width: 410px;
+    color: royalblue;
+    height: 0%;
+}
+.wrapper{
+    background: aliceblue;
+    height: fit-content;
+    margin: 60px auto;
+}
+.wrapper h2{
+    color: navy;
+    font-family: sans-serif;
+    text-align: center;
+}
+
